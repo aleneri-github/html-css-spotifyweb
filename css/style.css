@@ -2,11 +2,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  color: #FFFFFF;
 }
 
 .wrapper {
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 90px);
   width: 100%;
 }
 
@@ -20,4 +22,31 @@ nav {
   height: 100%;
   width: calc(100% - 250px);
   background-color: #141922;
+  overflow-y: scroll;
+}
+
+.upgrade {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  padding: 0 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.upgrade h5 {
+  background-color: #080B12;
+  border: 1px solid #FFFFFF;
+  padding: 10px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+footer {
+  height: 90px;
+  background-color: #282828;
 }
