@@ -12,6 +12,10 @@
   display: table;
 }
 
+.list_style_none {
+  list-style: none;
+}
+
 .wrapper {
   display: flex;
   height: calc(100vh - 90px);
@@ -54,6 +58,10 @@ nav {
   float: left;
   width: 70%;
   font-size: 15px;
+}
+
+.playlist i {
+  font-size: 40px;
 }
 
 .big_main {
