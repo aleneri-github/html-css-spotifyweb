@@ -6,6 +6,12 @@
   color: #FFFFFF;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .wrapper {
   display: flex;
   height: calc(100vh - 90px);
@@ -29,19 +35,24 @@ nav {
   vertical-align: middle;
 }
 
-.home_list {
-  list-style: none;
+.home {
+  width: 100%;
 }
-.home_list li {
-
-  font-size: 20px;
-  padding: 10px 0px;
-}
-.home_list li span {
-  margin-left: 10px;
-  font-size: 15px;
+.icon {
+  float: left;
+  width: 20%;
+  height: 50px;
   
 }
+
+.text {
+  float: left;
+  width: 70%;
+  height: 50px;
+
+}
+
+
 
 .big_main {
   height: 100%;

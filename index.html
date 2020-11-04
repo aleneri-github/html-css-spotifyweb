@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- NOTE: BOOTSTRAP 3 -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- NOTE: /BOOTSTRAP 3 -->
     <!-- NOTE: GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <!-- NOTE: /GOOGLE FONT -->
@@ -23,11 +27,19 @@
         </section>
 
         <section class="home">
-          <ul class="home_list">
-            <li><i class="fas fa-home"></i><span>Home</span></li>
-            <li><i class="fas fa-search"></i><span>Cerca</span></li>
-            <li><i class="fas fa-book-open"></i><span>La tua libreria</span></li>
-          </ul>
+          <div class="menu clearfix">
+            <div class="icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <div class="text">Home</div>
+          </div>
+          <div class="menu clearfix">
+            <div class="icon"><i class="fas fa-search"></i></div>
+            <div class="text">Cerca</div>
+          </div><div class="menu clearfix">
+            <div class="icon"><i class="fas fa-book-open"></i></div>
+            <div class="text">La tua libreria</div>
+          </div>
 
 
         </section>
