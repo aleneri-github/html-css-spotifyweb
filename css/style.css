@@ -89,7 +89,12 @@ nav {
 }
 
 .footer_nav {
-
+  padding-top: 60px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.footer_nav i {
+  margin-right: 10px;
 }
 
 
