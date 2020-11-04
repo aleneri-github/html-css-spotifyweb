@@ -41,6 +41,7 @@ nav {
 
 .home {
   width: 100%;
+  padding-bottom: 20px;
 }
 .menu {
   padding-bottom: 12px;
@@ -52,6 +53,7 @@ nav {
 }
 .icon i {
   font-size: 20px;
+
 }
 
 .text {
@@ -66,8 +68,17 @@ nav {
   margin-right: 20px;
 }
 .playlist li {
-  margin: 10px 0;
+  margin: 10px 0px;
 }
+#plus {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+
+
 
 .big_main {
   height: 100%;
