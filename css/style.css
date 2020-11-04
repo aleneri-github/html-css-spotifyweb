@@ -15,7 +15,15 @@
 nav {
   height: 100%;
   width: 250px;
+  padding: 20px 30px;
   background-color: #000000;
+  z-index: 1;
+}
+nav i {
+  font-size: 40px;
+}
+.logo_spotify {
+  font-size: 25px;
 }
 
 .big_main {
@@ -35,7 +43,7 @@ nav {
   height: 70px;
   width: 100%;
   padding: 0 60px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(8, 11, 18, 0.7);
 }
 
 .upgrade h5 {
