@@ -22,10 +22,25 @@ nav {
 .logo_spotify {
   font-size: 25px;
   line-height: 70px;
+  padding-bottom: 15px;
 }
 .logo_spotify i {
   font-size: 40px;
   vertical-align: middle;
+}
+
+.home_list {
+  list-style: none;
+}
+.home_list li {
+
+  font-size: 20px;
+  padding: 10px 0px;
+}
+.home_list li span {
+  margin-left: 10px;
+  font-size: 15px;
+  
 }
 
 .big_main {
