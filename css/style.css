@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
+  font-size: 15px;
 }
 
 .clearfix::after {
@@ -168,14 +169,16 @@ nav {
   margin: 20px auto;
   width: 100%;
 }
+.albums h2 {
+  margin: 30px 0px 20px 10px;
+}
 
-.img {
+figure img {
   float: left;
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   margin: 5px 5px;
   background-color: red;
-
 }
 
 
