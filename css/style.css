@@ -129,6 +129,7 @@ nav {
 .big_main {
   height: 100%;
   width: calc(100% - 250px);
+  padding-left: 20px;
   background-color: #141922;
   overflow-y: scroll;
 }
@@ -154,6 +155,7 @@ nav {
   width: calc(100% - 250px);
   padding: 0 60px;
   background-color: rgba(8, 11, 18, 0.7);
+  z-index: 1;
 }
 
 .upgrade:hover {
@@ -176,9 +178,13 @@ nav {
 .albums {
   margin: 20px auto;
   width: 100%;
+
 }
 .albums h2 {
-  margin: 30px 0px 20px 10px;
+  margin: 30px 0px 10px 0px;
+}
+.albums p {
+  padding-bottom: 20px;
 }
 
 .album {
