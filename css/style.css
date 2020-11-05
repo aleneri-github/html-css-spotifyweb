@@ -77,7 +77,7 @@ nav {
 }
 
 .playlist {
-  height: 250px;
+  height: 200px;
 }
 #list_playlist {
   height: 60%;
@@ -88,7 +88,7 @@ nav {
   font-size: 40px;
   margin-top: 5px;
   margin-right: 20px;
-
+  cursor: pointer;
 }
 .playlist li {
   margin: 10px 0px;
@@ -98,6 +98,8 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+#plus span {
   cursor: pointer;
 }
 
@@ -126,12 +128,12 @@ nav {
   display: flex;
   margin: 0 auto;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   padding-top: 80px;
-  width: 60%;
+  width: 70%;
 }
-
 .upgrade {
   position: fixed;
   top: 0;
@@ -146,7 +148,6 @@ nav {
 }
 
 .upgrade:hover {
-
 }
 
 .upgrade h5 {
@@ -156,6 +157,27 @@ nav {
   border-radius: 25px;
   cursor: pointer;
 }
+#main_menu li {
+  padding: 0 10px;
+}
+#main_menu a {
+  text-decoration: none;
+}
+
+.albums {
+  margin: 20px auto;
+  width: 100%;
+}
+
+.img {
+  float: left;
+  width: 160px;
+  height: 160px;
+  margin: 5px 5px;
+  background-color: red;
+
+}
+
 
 footer {
   height: 90px;
