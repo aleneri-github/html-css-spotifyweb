@@ -122,6 +122,16 @@ nav {
   overflow-y: scroll;
 }
 
+#main_menu {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+  width: 60%;
+}
+
 .upgrade {
   position: fixed;
   top: 0;
