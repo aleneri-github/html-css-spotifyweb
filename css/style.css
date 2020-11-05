@@ -189,6 +189,36 @@ nav {
   background-color: #282828;
 }
 
+.img_container {
+  position: relative;
+}
+
+.layover {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 180px;
+  height: 180px;
+  margin: 10px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.layover i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  padding: 10px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.album:hover .layover {
+  display: block;
+}
+
 .album img {
   width: 180px;
   height: 180px;
