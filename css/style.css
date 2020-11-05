@@ -213,6 +213,7 @@ nav {
   padding: 10px;
   border: 5px solid white;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .album:hover .layover {
