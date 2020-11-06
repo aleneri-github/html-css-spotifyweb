@@ -3,17 +3,23 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  color: #FFFFFF;
+  color: #7D7F84;
   font-size: 15px;
 }
 
 h2 {
   font-size: 25px;
   padding: 25px 0px 0px 20px;
+  color: #FFFFFF;
 }
 
 h3 {
   font-size: 18px;
+  color: #FFFFFF;
+}
+
+h5 {
+  color: #FFFFFF;
 }
 
 p {
@@ -60,9 +66,11 @@ nav {
 .logo_spotify i {
   font-size: 40px;
   vertical-align: middle;
+  color: #FFFFFF;
 }
 .logo_spotify span {
   font-size: 25px;
+  color: #FFFFFF;
 }
 
 .home {
@@ -72,6 +80,10 @@ nav {
 }
 .menu {
   padding-bottom: 12px;
+}
+.menu:first-child .text,
+.menu:first-child i {
+  color: #FFFFFF;
 }
 .icon {
   float: left;
@@ -127,6 +139,14 @@ nav {
   margin-right: 10px;
 }
 
+.white {
+  color: white;
+}
+
+
+
+
+
 
 
 
@@ -152,11 +172,11 @@ nav {
   z-index: 1;
 }
 .upgrade h5 {
-  background-color: #080B12;
   border: 1px solid #FFFFFF;
   padding: 10px 30px;
   border-radius: 25px;
   cursor: pointer;
+  background-color: #080B12;
 }
 .upgrade:hover {
 }
@@ -177,6 +197,21 @@ nav {
 }
 #main_menu a {
   text-decoration: none;
+}
+
+#evidenza {
+  display: inline-block;
+  position: relative;
+}
+
+#evidenza::after {
+  content: "";
+  display: block;
+  height: 2px;
+  margin-left: 30px;
+  width: 30%;
+  background-color: #ADFF2F;
+
 }
 
 .albums {
@@ -275,7 +310,6 @@ footer {
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-
 }
 
 /* Landscape tablets and medium desktops */
@@ -284,8 +318,6 @@ footer {
   .album {
     width: calc(100% / 4 - 10px);
   }
-
-
 }
 
 /* Portrait tablets and small desktops */
@@ -294,12 +326,6 @@ footer {
   .album {
     width: calc(100% / 2 - 10px);
   }
-
-
-
-
-
-
 }
 
 /* Landscape phones and portrait tablets */
@@ -308,12 +334,8 @@ footer {
   .album {
     width: calc(100% / 2 - 10px);
   }
-
-
-
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
-
 }
