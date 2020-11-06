@@ -355,6 +355,13 @@ footer {
   height: 50%;
 
 }
+.song_status {
+  display: inline-block;
+  height: 5px;
+  width: 85%;
+  border-radius: 10px;
+  background-color: white;
+}
 
 .control_volume {
   width: 250px;
