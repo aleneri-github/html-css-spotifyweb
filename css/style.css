@@ -345,20 +345,22 @@ footer {
   padding: 5px 150px;
 }
 .player_top i {
-  font-size: 20px;
+  font-size: 15px;
   color: #FFFFFF;
 }
 .player_top i:nth-child(3) {
-  font-size: 30px;
+  font-size: 25px;
 }
 .player_bottom {
   height: 50%;
-
+}
+.player_bottom span {
+  padding: 0 10px;
 }
 .song_status {
   display: inline-block;
-  height: 5px;
-  width: 85%;
+  height: 2px;
+  width: 75%;
   border-radius: 10px;
   background-color: white;
 }
@@ -366,7 +368,6 @@ footer {
 .control_volume {
   width: 250px;
   height: 100%;
-  background-color: white;
 }
 
 
