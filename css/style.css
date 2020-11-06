@@ -53,7 +53,6 @@ nav {
 }
 
 .logo_spotify {
-  font-size: 25px;
   line-height: 70px;
   padding-bottom: 15px;
   cursor: pointer;
@@ -61,6 +60,9 @@ nav {
 .logo_spotify i {
   font-size: 40px;
   vertical-align: middle;
+}
+.logo_spotify span {
+  font-size: 25px;
 }
 
 .home {
@@ -180,11 +182,12 @@ nav {
 .albums {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .album {
-  width: calc(100% / 5 - 20px);
-  margin: 20px 10px;
+  width: calc(100% / 6);
+  padding: 20px 10px;
   background-color: #181818;
 }
 
@@ -232,8 +235,37 @@ nav {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   height: 90px;
   background-color: #282828;
+}
+
+.info_song {
+  width: 250px;
+  height: 100%;
+  background-color: green;
+}
+
+.player {
+  width: 40%;
+  height: 100%;
+  background-color: red;
+}
+.player_top {
+  height: 50%;
+  background-color: grey;
+}
+.player_bottom {
+  height: 50%;
+  background-color: lightgreen;
+}
+
+.control_volume {
+  width: 250px;
+  height: 100%;
+  background-color: white;
+
 }
 
 
