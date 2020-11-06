@@ -186,7 +186,8 @@ nav {
 }
 
 .album {
-  width: calc(100% / 6);
+  width: calc(100% / 6 - 10px);
+  margin: 0 5px;
   padding: 20px 10px;
   background-color: #181818;
 }
@@ -280,15 +281,35 @@ footer {
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 
+  .album {
+    width: calc(100% / 4 - 10px);
+  }
+
+
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 
+  .album {
+    width: calc(100% / 2 - 10px);
+  }
+
+
+
+
+
+
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+
+  .album {
+    width: calc(100% / 2 - 10px);
+  }
+
+
 
 }
 
