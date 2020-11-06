@@ -120,6 +120,8 @@ nav {
   margin: 10px 0px;
   cursor: pointer;
 }
+
+
 #plus {
   display: flex;
   justify-content: flex-start;
@@ -197,6 +199,9 @@ nav {
 }
 #main_menu a {
   text-decoration: none;
+}
+#main_menu li a:hover {
+  color: #FFFFFF;  
 }
 
 #evidenza {
