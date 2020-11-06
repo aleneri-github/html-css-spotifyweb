@@ -48,6 +48,11 @@ nav {
   padding: 10px 20px;
   background-color: #000000;
 }
+
+nav *:hover{
+  color: #FFFFFF;
+
+}
 .nav_top {
   width: 100%;
   height: calc(100% - 50px);
@@ -76,8 +81,9 @@ nav {
 .home {
   width: 100%;
   padding-bottom: 20px;
-
 }
+
+
 .menu {
   padding-bottom: 12px;
 }
@@ -108,6 +114,9 @@ nav {
 #list_playlist {
   height: 60%;
   overflow-y: auto;
+}
+#list_playlist li:hover {
+  color: #FFFFFF;
 }
 
 .playlist i {
@@ -180,7 +189,8 @@ nav {
   cursor: pointer;
   background-color: #080B12;
 }
-.upgrade:hover {
+.upgrade:hover h5 {
+  transform: scale(1.1, 1.1);
 }
 
 #main_menu {
@@ -201,7 +211,7 @@ nav {
   text-decoration: none;
 }
 #main_menu li a:hover {
-  color: #FFFFFF;  
+  color: #FFFFFF;
 }
 
 #evidenza {
@@ -268,6 +278,7 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 45px;
+  color: #FFFFFF;
   cursor: pointer;
 }
 
