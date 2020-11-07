@@ -366,8 +366,23 @@ footer {
 }
 
 .control_volume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 250px;
   height: 100%;
+}
+#volume_status {
+  display: inline-block;
+  height: 2px;
+  width: 40%;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.control_volume i {
+  padding: 0 10px;
+  color: #FFFFFF;
 }
 
 
