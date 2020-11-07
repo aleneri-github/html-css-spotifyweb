@@ -329,9 +329,11 @@ footer {
 .artist_title h6:hover {
   color: #FFFFFF;
   text-decoration: underline;
+  cursor: pointer;
 }
 .info_song i:hover {
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .player {
@@ -349,6 +351,7 @@ footer {
 .player_top i {
   font-size: 15px;
   color: #FFFFFF;
+  cursor: pointer;
 }
 .player_top i:nth-child(3) {
   font-size: 25px;
@@ -392,6 +395,7 @@ footer {
   width: 15px;
   border-radius: 50%;
   background-color: white;
+  cursor: pointer;
 }
 
 .grey {
@@ -416,10 +420,10 @@ footer {
   background-color: white;
 }
 
-#volume_status:hover .white {
+.control_volume:hover .white {
   background-color: #ADFF2F;
 }
-#volume_status:hover .white::before {
+.control_volume:hover .white::before {
   display: block;
 }
 
@@ -427,6 +431,7 @@ footer {
 .control_volume i {
   padding: 0 10px;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 
@@ -463,4 +468,17 @@ footer {
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+  nav {
+    height: 100%;
+    width: 90px;
+  }
+
+  .big_main {
+    height: 100%;
+    width: calc(100% - 90px);
+  }
+
+  .hidden_xs {
+    display: none;
+  }
 }
