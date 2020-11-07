@@ -362,10 +362,21 @@ footer {
 }
 .song_status {
   display: inline-block;
-  height: 2px;
+  height: 4px;
   width: 75%;
   border-radius: 10px;
+}
+.white {
+  float: left;
+  width: 40%;
+  height: 100%;
   background-color: white;
+}
+.grey {
+  float: left;
+  width: 60%;
+  height: 100%;
+  background-color: grey;
 }
 
 .control_volume {
@@ -377,7 +388,7 @@ footer {
 }
 #volume_status {
   display: inline-block;
-  height: 2px;
+  height: 4px;
   width: 40%;
   border-radius: 10px;
   background-color: white;
