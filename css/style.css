@@ -209,7 +209,7 @@ nav {
   cursor: pointer;
   background-color: #080B12;
 }
-.upgrade:hover h5 {
+.upgrade h5:hover {
   transform: scale(1.1, 1.1);
 }
 
