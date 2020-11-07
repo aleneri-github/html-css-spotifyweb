@@ -473,6 +473,10 @@ footer {
     width: 90px;
   }
 
+  .upgrade {
+  width: calc(100% - 90px);  
+  }
+
   .big_main {
     height: 100%;
     width: calc(100% - 90px);
