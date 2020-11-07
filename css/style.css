@@ -125,7 +125,7 @@ nav {
 
 
 #list_playlist {
-  height: 60%;
+  height: 100%;
   overflow-y: auto;
 }
 #list_playlist li:hover {
@@ -326,8 +326,13 @@ footer {
 .artist_title {
   padding-right: 30px;
 }
-
-
+.artist_title h6:hover {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+.info_song i:hover {
+  color: #FFFFFF;
+}
 
 .player {
   width: 40%;
@@ -410,6 +415,14 @@ footer {
   border-radius: 10px;
   background-color: white;
 }
+
+#volume_status:hover .white {
+  background-color: #ADFF2F;
+}
+#volume_status:hover .white::before {
+  display: block;
+}
+
 
 .control_volume i {
   padding: 0 10px;
