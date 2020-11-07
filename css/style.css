@@ -170,10 +170,7 @@ nav {
   color: #FFFFFF;
 }
 
-
-
-
-.white {
+.white_jd {
   color: white;
 }
 
@@ -366,12 +363,32 @@ footer {
   width: 75%;
   border-radius: 10px;
 }
+
+.player_bottom:hover .white {
+  background-color: #ADFF2F;
+}
+.player_bottom:hover .white::before {
+  display: block;
+}
 .white {
+  position: relative;
   float: left;
   width: 40%;
   height: 100%;
   background-color: white;
 }
+.white::before {
+  content: "";
+  display: none;
+  position: absolute;
+  top: -100%;
+  right: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: white;
+}
+
 .grey {
   float: left;
   width: 60%;
