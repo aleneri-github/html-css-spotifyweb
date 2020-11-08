@@ -350,7 +350,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  padding: 5px 150px;
+  padding: 5px 0;
 }
 
 .player_commands li {
@@ -381,14 +381,13 @@ footer {
   width: 100%;
 }
 #bar_player li span {
-  padding: 0 10px;
+  padding: 0 5px;
 
 }
 .song_status {
   display: inline-block;
   height: 4px;
   width: 100%;
-
   border-radius: 10px;
 }
 
@@ -458,24 +457,48 @@ footer {
 
 /* NOTE: MEDIA QUERY */
 
-/* Large desktops and laptops */
-@media (min-width: 1200px) {
-}
 
 /* Landscape tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
 
   .album {
     width: calc(100% / 4 - 10px);
   }
+
+  .upgrade {
+    padding: 0 20px;
+  }
+
+
 }
 
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
 
   .album {
     width: calc(100% / 4 - 10px);
+<<<<<<< HEAD
+=======
   }
+
+  .upgrade {
+    padding: 0 20px;
+  }
+
+  .upgrade h5 {
+    font-size: 12px;
+  }
+
+  #main_menu {
+    width: 90%;
+  }
+
+  .player {
+    width: 30%;
+>>>>>>> main
+  }
+
+
 }
 
 /* Landscape phones and portrait tablets */
@@ -484,6 +507,50 @@ footer {
   .album {
     width: calc(100% / 2 - 10px);
   }
+
+  .upgrade h5 {
+    font-size: 10px;
+    padding: 5px 15px;
+  }
+
+  .upgrade {
+    padding: 0 20px;
+  }
+
+  .info_song {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+  }
+  .info_song img {
+    width: 25%;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+  .artist_title {
+    display: inline-block;
+    padding-right: 30px;
+  }
+
+  .info_song .fa-heart {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    display: block;
+  }
+
+  .info_song .fa-folder {
+    position: absolute;
+    top: 45%;
+    right: 25%;
+    display: block;
+  }
+
+
+
+
+
 }
 
 /* Portrait phones and smaller */
@@ -505,4 +572,64 @@ footer {
   .hidden_xs {
     display: none;
   }
+
+  .upgrade {
+    padding: 0 10px;
+  }
+
+  .upgrade h5 {
+    font-size: 10px;
+    padding: 5px 15px;
+  }
+
+  .player {
+    width: 25%;
+  }
+
+  .info_song {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 100%;
+  }
+  .info_song img {
+    width: 25%;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+  .artist_title {
+    display: inline-block;
+    padding-right: 30px;
+  }
+
+  .info_song .fa-heart {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    display: block;
+  }
+
+  .info_song .fa-folder {
+    position: absolute;
+    top: 45%;
+    right: 25%;
+    display: block;
+  }
+
+  .icon i {
+    margin: 0 auto;
+    font-size: 40px;
+  }
+
+  .fa-user-circle {
+    margin-bottom: 50px;
+    font-size: 30px;
+
+
+  }
+
+
+
+
+
 }
