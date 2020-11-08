@@ -344,6 +344,7 @@ footer {
 
 .player_top {
   height: 50%;
+  padding: 0 80px;
 }
 .player_commands {
   display: flex;
@@ -616,16 +617,28 @@ footer {
     display: block;
   }
 
+  .footer_nav {
+    line-height: 0px;
+  }
+
+  .nav_top {
+
+    height: calc(100% - 100px);
+
+  }
+
   .icon i {
     margin: 0 auto;
     font-size: 40px;
   }
 
+  .fa-arrow-alt-circle-down {
+    font-size: 40px;
+    padding-bottom: 20px;
+  }
+
   .fa-user-circle {
-    margin-bottom: 50px;
-    font-size: 30px;
-
-
+    font-size: 40px;
   }
 
 
