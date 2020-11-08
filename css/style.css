@@ -42,6 +42,7 @@ p {
   width: 100%;
 }
 
+/* NOTE: NAV */
 nav {
   height: 100%;
   width: 250px;
@@ -170,7 +171,10 @@ nav {
 .white_jd {
   color: white;
 }
+/* NOTE: /NAV */
 
+
+/* NOTE: MAIN */
 .big_main {
   height: 100%;
   width: calc(100% - 250px);
@@ -178,6 +182,7 @@ nav {
   overflow-y: scroll;
 }
 
+/* NOTE: CTA */
 .upgrade {
   position: fixed;
   top: 0;
@@ -201,7 +206,9 @@ nav {
 .upgrade h5:hover {
   transform: scale(1.1, 1.1);
 }
+/* NOTE: /CTA */
 
+/* NOTE: MENU' PRINCIPALE */
 #main_menu {
   display: flex;
   margin: 0 auto;
@@ -212,7 +219,6 @@ nav {
   padding-top: 80px;
   width: 90%;
 }
-
 #main_menu li {
   padding: 0 8px 35px 10px;
 }
@@ -222,12 +228,10 @@ nav {
 #main_menu li a:hover {
   color: #FFFFFF;
 }
-
 #evidenza {
   display: inline-block;
   position: relative;
 }
-
 #evidenza::after {
   content: "";
   display: block;
@@ -236,7 +240,10 @@ nav {
   width: 30%;
   background-color: #ADFF2F;
 }
+/* NOTE: /MENU' PRINCIPALE */
 
+
+/* NOTE: SEZIONE ALBUMS */
 .albums {
   width: 100%;
   display: flex;
@@ -292,7 +299,10 @@ nav {
 .img_container:hover .layover {
   display: block;
 }
+/* NOTE: /SEZIONE ALBUMS */
 
+
+/* NOTE: FOOTER */
 footer {
   display: flex;
   justify-content: space-between;
@@ -301,6 +311,7 @@ footer {
   background-color: #282828;
 }
 
+/* NOTE: BLOCCO DI SINISTRA FOOTER */
 .info_song {
   display: flex;
   justify-content: space-around;
@@ -323,7 +334,10 @@ footer {
   color: #FFFFFF;
   cursor: pointer;
 }
+/* NOTE: /BLOCCO DI SINITRA FOOTER */
 
+
+/* NOTE: BLOCCO CENTRALE FOOTER */
 .player {
   width: 40%;
   height: 100%;
@@ -385,6 +399,9 @@ footer {
 .player_bottom:hover .white::before {
   display: block;
 }
+/* NOTE: /BLOCCO CENTRALE FOOTER */
+
+/* NOTE: BARRE USATE DA #BAR_PLAYER E #VOLUME_STATUS */
 .white {
   position: relative;
   float: left;
@@ -411,7 +428,10 @@ footer {
   height: 100%;
   background-color: grey;
 }
+/* NOTE: /BARRE USATE DA #BAR_PLAYER E #VOLUME_STATUS */
 
+
+/* NOTE: BLOCCO DI DESTRA DEL FOOTER */
 .control_volume {
   display: flex;
   justify-content: center;
@@ -439,6 +459,9 @@ footer {
   color: #FFFFFF;
   cursor: pointer;
 }
+/* NOTE: /BLOCCO DI DESTRA DEL FOOTER */
+
+
 
 
 /* NOTE: MEDIA QUERY */
@@ -460,10 +483,6 @@ footer {
 /* Portrait tablets and small desktops */
 @media (max-width: 991px) {
 
-  .album {
-    width: calc(100% / 4 - 10px);
-  }
-
   .upgrade {
     padding: 0 20px;
   }
@@ -476,6 +495,10 @@ footer {
     width: 90%;
   }
 
+  .album {
+    width: calc(100% / 4 - 10px);
+  }
+
   .player {
     width: 30%;
   }
@@ -485,8 +508,8 @@ footer {
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
 
-  .album {
-    width: calc(100% / 2 - 10px);
+  .upgrade {
+    padding: 0 20px;
   }
 
   .upgrade h5 {
@@ -494,8 +517,8 @@ footer {
     padding: 5px 15px;
   }
 
-  .upgrade {
-    padding: 0 20px;
+  .album {
+    width: calc(100% / 2 - 10px);
   }
 
   .info_song {
@@ -513,14 +536,12 @@ footer {
     display: inline-block;
     padding-right: 30px;
   }
-
   .info_song .fa-heart {
     position: absolute;
     top: 25%;
     right: 25%;
     display: block;
   }
-
   .info_song .fa-folder {
     position: absolute;
     top: 45%;
@@ -532,6 +553,7 @@ footer {
 
 /* Portrait phones and smaller */
 @media (max-width: 552px) {
+
   nav {
     height: 100%;
     width: 90px;
@@ -539,6 +561,12 @@ footer {
 
   .upgrade {
   width: calc(100% - 90px);
+  padding: 0 10px;
+  }
+
+  .upgrade h5 {
+    font-size: 10px;
+    padding: 5px 15px;
   }
 
   .big_main {
@@ -548,15 +576,6 @@ footer {
 
   .hidden_xs {
     display: none;
-  }
-
-  .upgrade {
-    padding: 0 10px;
-  }
-
-  .upgrade h5 {
-    font-size: 10px;
-    padding: 5px 15px;
   }
 
   .player {
@@ -574,6 +593,7 @@ footer {
     padding-top: 10px;
     padding-left: 5px;
   }
+  
   .artist_title {
     display: inline-block;
     padding-right: 30px;
