@@ -50,8 +50,7 @@
               <li>Nome Playlist</li>
               <li>Nome Playlist</li>
               <li>Nome Playlist</li>
-              <li>Nome Playlist</li>
-              <li>Nome Playlist</li>
+              <li>Nome Playlist</li>              
             </ul>
           </section>
         </div>
@@ -265,19 +264,26 @@
       </div>
       <div class="player">
         <div class="player_top">
-          <i class="fas fa-random"></i>
-          <i class="fas fa-step-backward"></i>
-          <i class="far fa-play-circle"></i>
-          <i class="fas fa-step-forward"></i>
-          <i class="fas fa-redo-alt"></i>
+          <ul class="player_commands">
+            <li><i class="fas fa-random"></i></li>
+            <li><i class="fas fa-step-backward"></i></li>
+            <li><i class="far fa-play-circle"></i></li>
+            <li><i class="fas fa-step-forward"></i></li>
+            <li><i class="fas fa-redo-alt"></i></li>
+          </ul>
         </div>
         <div class="player_bottom">
-          <span>0:25</span>
-          <div class="song_status clearfix">
-            <div class="white"></div>
-            <div class="grey"></div>
-          </div>
-          <span>4:35</span>
+          <ul id="bar_player">
+            <li><span>0:25</span></li>
+            <li><span class="song_status clearfix">
+              <span class="white"></span>
+              <span class="grey"></span>
+            </span></li>
+            <li><span>4:35</span></li>
+          </ul>
+
+
+
         </div>
       </div>
       <div class="control_volume">

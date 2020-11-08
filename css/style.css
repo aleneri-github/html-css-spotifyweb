@@ -221,11 +221,11 @@ nav {
   flex-wrap: wrap;
   align-items: center;
   padding-top: 80px;
-  width: 80%;
+  width: 90%;
 }
 
 #main_menu li {
-  padding: 0 10px;
+  padding: 0 8px 35px 10px;
 }
 #main_menu a {
   text-decoration: none;
@@ -310,6 +310,7 @@ footer {
   display: flex;
   justify-content: space-between;
   height: 90px;
+  padding: 5px;
   background-color: #282828;
 }
 
@@ -339,36 +340,55 @@ footer {
 .player {
   width: 40%;
   height: 100%;
-
 }
+
 .player_top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 50%;
+}
+.player_commands {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
   padding: 5px 150px;
 }
-.player_top i {
+
+.player_commands li {
+  padding: 0 8px;
+}
+.player_top li i {
   font-size: 15px;
   color: #FFFFFF;
   cursor: pointer;
 }
-.player_top i:nth-child(3) {
+.player_top .fa-play-circle {
   font-size: 25px;
 }
-.player_top i:nth-child(3):hover {
+.player_top .fa-play-circle:hover {
   transform: scale(1.2,1.2);
 }
 .player_bottom {
   height: 50%;
 }
-.player_bottom span {
+
+#bar_player {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+#bar_player li:nth-child(2) {
+  width: 100%;
+}
+#bar_player li span {
   padding: 0 10px;
+
 }
 .song_status {
   display: inline-block;
   height: 4px;
-  width: 75%;
+  width: 100%;
+
   border-radius: 10px;
 }
 
@@ -454,7 +474,7 @@ footer {
 @media (min-width: 768px) and (max-width: 991px) {
 
   .album {
-    width: calc(100% / 2 - 10px);
+    width: calc(100% / 4 - 10px);
   }
 }
 
@@ -467,14 +487,14 @@ footer {
 }
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) {
+@media (max-width: 552px) {
   nav {
     height: 100%;
     width: 90px;
   }
 
   .upgrade {
-  width: calc(100% - 90px);  
+  width: calc(100% - 90px);
   }
 
   .big_main {
