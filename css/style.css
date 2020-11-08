@@ -54,6 +54,7 @@ nav {
   height: calc(100% - 50px);
   overflow: hidden;
 }
+
 .nav_bottom {
   width: 100%;
   height: 50px;
@@ -78,7 +79,6 @@ nav {
   width: 100%;
   padding-bottom: 20px;
 }
-
 
 .menu {
   padding-bottom: 12px;
@@ -122,8 +122,6 @@ nav {
   color: #FFFFFF;
 }
 
-
-
 #list_playlist {
   height: 100%;
   overflow-y: auto;
@@ -142,7 +140,6 @@ nav {
   margin: 10px 0px;
   cursor: pointer;
 }
-
 
 #plus {
   display: flex;
@@ -173,14 +170,6 @@ nav {
 .white_jd {
   color: white;
 }
-
-
-
-
-
-
-
-
 
 .big_main {
   height: 100%;
@@ -246,7 +235,6 @@ nav {
   margin-left: 30px;
   width: 30%;
   background-color: #ADFF2F;
-
 }
 
 .albums {
@@ -289,7 +277,6 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-
   background-color: rgba(255, 255, 255, 0.2);
 }
 .layover i {
@@ -447,13 +434,11 @@ footer {
   display: block;
 }
 
-
 .control_volume i {
   padding: 0 10px;
   color: #FFFFFF;
   cursor: pointer;
 }
-
 
 
 /* NOTE: MEDIA QUERY */
@@ -470,7 +455,6 @@ footer {
     padding: 0 20px;
   }
 
-
 }
 
 /* Portrait tablets and small desktops */
@@ -478,8 +462,6 @@ footer {
 
   .album {
     width: calc(100% / 4 - 10px);
-<<<<<<< HEAD
-=======
   }
 
   .upgrade {
@@ -496,9 +478,7 @@ footer {
 
   .player {
     width: 30%;
->>>>>>> main
   }
-
 
 }
 
@@ -547,10 +527,6 @@ footer {
     right: 25%;
     display: block;
   }
-
-
-
-
 
 }
 
@@ -624,7 +600,6 @@ footer {
   .nav_top {
 
     height: calc(100% - 100px);
-
   }
 
   .icon i {
@@ -640,9 +615,5 @@ footer {
   .fa-user-circle {
     font-size: 40px;
   }
-
-
-
-
 
 }
