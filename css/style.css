@@ -502,6 +502,10 @@ footer {
     width: calc(100% / 4 - 10px);
   }
 
+  #list_playlist {
+    height: 60%;
+  }
+
   .player {
     width: 30%;
   }
@@ -522,6 +526,10 @@ footer {
 
   .album {
     width: calc(100% / 2 - 10px);
+  }
+
+  #list_playlist {
+    height: 60%;
   }
 
   .info_song {
