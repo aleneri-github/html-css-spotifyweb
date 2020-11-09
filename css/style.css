@@ -352,14 +352,14 @@ footer {
 }
 .player_commands {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   list-style: none;
   padding: 5px 0;
 }
 
 .player_commands li {
-  padding: 0 8px;
+  padding: 0 15px;
 }
 .player_top li i {
   font-size: 15px;
@@ -560,6 +560,10 @@ footer {
     display: block;
   }
 
+  .player_commands li {
+    padding: 0 8px;
+  }
+
 }
 
 /* Portrait phones and smaller */
@@ -622,6 +626,10 @@ footer {
     top: 45%;
     right: 25%;
     display: block;
+  }
+
+  .player_commands li {
+    padding: 0 5px;
   }
 
   .footer_nav {
